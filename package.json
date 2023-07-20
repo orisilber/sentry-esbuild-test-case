@@ -1,0 +1,14 @@
+{
+  "name": "sentry-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node esbuild.mjs"
+  },
+  "dependencies": {
+    "@sentry/esbuild-plugin": "2.2.0",
+    "esbuild": "^0.18.14",
+    "rmfr": "^2.0.0"
+  }
+}
